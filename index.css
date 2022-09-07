@@ -3,6 +3,7 @@ body {
   background: radial-gradient(circle, rgba(63,94,251,0.8127626050420168) 0%, rgba(252,70,107,0.6418942577030813) 100%);
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  min-height: 100vh;
 }
 
 
