@@ -1,0 +1,70 @@
+body {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,0.8127626050420168) 0%, rgba(252,70,107,0.6418942577030813) 100%);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+
+h1 {
+text-align: center;
+margin: 30px 0 0 0;
+color: aliceblue;
+font-weight: bold;
+font-size: 3em;
+}
+
+.author {
+  margin: 0 30% 4% 30%;
+  padding-bottom: 1em;
+  color: aliceblue;
+  text-align: center;
+  border-bottom: 5px solid aliceblue;
+  border-radius: 2px;
+  clear: both;
+}
+
+h3 {
+  color: aliceblue;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+
+p {
+    color: aliceblue;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .bio {
+    max-width: 500px;
+    letter-spacing: .8px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+.nav {
+  text-decoration: none;
+  padding: 10% 10px 1px 10px;
+  color: aliceblue;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.nav:hover {
+    color: aliceblue;
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+    
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  
+
+}
+
+

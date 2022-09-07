@@ -1,0 +1,97 @@
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.8127626050420168) 0%, rgba(252,70,107,0.6418942577030813) 100%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  nav {
+    margin-top: 10px;
+    margin-bottom: 20px;;
+  }
+
+.nav {
+  text-decoration: none;
+  padding: 10% 10px 1px 10px;
+  color: aliceblue;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0;
+}
+.nav:hover {
+    color: aliceblue;
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+    
+}
+
+.headline {
+    text-align: center;
+    margin: 30px 30% 0 30%;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 3em;
+    border-bottom: 4px solid aliceblue;
+    border-radius: 2px;
+   
+  }
+
+table {
+    border: 2;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+height: 240px;
+width: 500px;
+border: solid 6px royalblue;
+border-radius: 8px;
+padding: 5px 5px 5px 5px;
+border-spacing: 6px;
+border-collapse: separate;
+width: 50%;
+}
+
+th {
+height: 40px;
+background-color: royalblue;
+border-radius: 4px;
+padding: 5px 5px 5px 5px;
+font-size: 30px;
+color: aliceblue;
+}
+
+
+td {
+padding: 5px 5px 5px 5px;
+border: solid 3px royalblue;
+background-color: royalblue;
+border-radius: 5px;
+color: aliceblue;
+margin: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 90%;
+    }
+    
+}
+
+
+
+
